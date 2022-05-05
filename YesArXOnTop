@@ -1,4 +1,4 @@
---[[ Credits to Stefanuk12 ]]--
+--[[ Credits to Unknow ]]--
 
 if getgenv().Aiming then return getgenv().Aiming end
 
@@ -39,7 +39,7 @@ local tableinsert = table.insert
 getgenv().Aiming = {
 	Enabled = true,
 
-	ShowFOV = true,
+	ShowFOV = false,
 	FOV = 60,
 	FOVSides = 60,
 	FOVColour = Color3fromRGB(10, 10, 10),
